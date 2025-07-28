@@ -1,7 +1,17 @@
-@@ .. @@
-   "scripts": {
--    "test": "echo \"Error: no test specified\" && exit 1"
-+    "dev": "vite",
-+    "build": "vite build",
-+    "preview": "vite preview"
-   },
+{
+  "name": "pixelpals-smp",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "vite": "^5.0.0"
+  },
+  "keywords": ["minecraft", "smp", "gaming"],
+  "author": "",
+  "license": "ISC",
+  "description": "PixelPals SMP - Minecraft Server Website"
+}
